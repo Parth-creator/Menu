@@ -7,4 +7,4 @@ for i in l1:
     if i == int(input):
         print("Your key ", input, " is on the index ", l1.index(i))
 if int(input) not in l1:
-    print("Sorry key not found\n Pls try again")
+    print("Sorry key not found\nPls try again")
