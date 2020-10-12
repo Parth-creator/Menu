@@ -1,4 +1,5 @@
 def search(list, n):
+    list.sort()
     l = 0
     u = len(list) - 1
     index = int
